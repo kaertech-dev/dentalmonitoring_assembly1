@@ -8,7 +8,7 @@ load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 class Config:
     SECRET_KEY = os.environ.get("SECRET_KEY")
     ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD")
-    SESSION_COOKIE_NAME = "fvi_session"
+    SESSION_COOKIE_NAME = "assembly1_session"
     TRAY_LIMIT = 50
 
     @classmethod

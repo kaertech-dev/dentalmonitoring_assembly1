@@ -1,10 +1,10 @@
 services:
-  dentalmonitoring:
+  dentalmonitoring_assembly1:
     build: .
     image: mainboard_assembly1
-    container_name: dentalmonitoring
+    container_name: dentalmonitoring_assembly1
     ports:
-      - "5050:5050"
+      - "5057:5057"
     restart: always
     env_file:
       - .env
