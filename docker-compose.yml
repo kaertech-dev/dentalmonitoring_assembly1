@@ -1,0 +1,12 @@
+services:
+  dentalmonitoring:
+    build: .
+    image: mainboard_assembly1
+    container_name: dentalmonitoring
+    ports:
+      - "5050:5050"
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - FLASK_ENV=production
