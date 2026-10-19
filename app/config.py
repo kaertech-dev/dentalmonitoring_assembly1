@@ -9,7 +9,6 @@ class Config:
     SECRET_KEY = os.environ.get("SECRET_KEY")
     ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD")
     SESSION_COOKIE_NAME = "assembly1_session"
-    SESSION_COOKIE_PATH = "/assembly1/"
     TRAY_LIMIT = 50
 
     @classmethod
