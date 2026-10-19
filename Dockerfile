@@ -34,4 +34,4 @@ COPY . .
 EXPOSE 5057
 
 # Run the app with a production WSGI server
-CMD ["gunicorn", "--workers", "2", "--bind", "0.0.0.0:5050", "run:app"]
+CMD ["gunicorn", "--workers", "2", "--bind", "0.0.0.0:5057", "run:app"]
