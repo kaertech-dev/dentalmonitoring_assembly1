@@ -10,7 +10,6 @@ REQUIRED_MAINBOARD_STATIONS = (
     "progtest",
     "soldering",
     "vi1",
-    "assembly1",
 )
 MAX_FAIL_REPETITIONS = 3
 
